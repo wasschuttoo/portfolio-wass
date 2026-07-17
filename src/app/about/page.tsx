@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { MapPin, Calendar, Heart, Target, Users, Sparkles, BookOpen, Coffee } from 'lucide-react';
 import { SectionHeader } from '@/components/ui-components';
+import { basePath } from '@/lib/utils';
 
 export default function AboutPage() {
   return (
@@ -37,7 +38,7 @@ export default function AboutPage() {
               className="relative"
             >
               <div className="w-full aspect-square max-w-md mx-auto rounded-3xl bg-gradient-to-br from-brand-500/10 to-rose-500/10 border border-brand-200/30 dark:border-brand-800/30 flex items-center justify-center">
-                <img src="/CW.png" alt="Wassil Chuttoo" className="w-64 h-auto object-contain drop-shadow-xl" />
+                <img src={`${basePath}/CW.png`} alt="Wassil Chuttoo" className="w-64 h-auto object-contain drop-shadow-xl" />
               </div>
             </motion.div>
           </div>

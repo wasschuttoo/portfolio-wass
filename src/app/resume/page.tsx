@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Download, FileText, Printer } from 'lucide-react';
 import { SectionHeader } from '@/components/ui-components';
+import { basePath } from '@/lib/utils';
 
 export default function ResumePage() {
   return (
@@ -22,7 +23,7 @@ export default function ResumePage() {
           {/* Actions */}
           <div className="flex flex-wrap gap-4 justify-center mb-10">
             <a
-              href="/cv/Wassil_Chuttoo_CV.pdf"
+              href={`${basePath}/cv/Wassil_Chuttoo_CV.pdf`}
               download
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-medium transition-all hover:shadow-lg hover:shadow-brand-600/25"
             >
@@ -45,7 +46,7 @@ export default function ResumePage() {
               <span className="text-sm font-medium">Wassil_Chuttoo_CV.pdf</span>
             </div>
             <iframe
-              src="/cv/Wassil_Chuttoo_CV.pdf"
+              src={`${basePath}/cv/Wassil_Chuttoo_CV.pdf`}
               className="w-full h-[600px] md:h-[800px]"
               title="Wassil Chuttoo CV"
             />

@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { stats, experience, certifications, skills, projects } from '@/lib/data';
 import { AnimatedCounter, SectionHeader, ScrollToTop } from '@/components/ui-components';
+import { basePath } from '@/lib/utils';
 
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
@@ -126,7 +127,7 @@ export default function HomePage() {
                 {/* Logo showcase */}
                 <div className="w-80 h-80 rounded-3xl bg-gradient-to-br from-red-500/10 to-gray-900/10 dark:from-red-500/20 dark:to-gray-800/20 border border-red-200/30 dark:border-red-800/30 flex items-center justify-center backdrop-blur-sm">
                   <motion.img
-                    src="/CW.png"
+                    src={`${basePath}/CW.png`}
                     alt="CW Logo"
                     className="w-64 h-auto object-contain drop-shadow-2xl"
                     animate={{ scale: [1, 1.03, 1] }}

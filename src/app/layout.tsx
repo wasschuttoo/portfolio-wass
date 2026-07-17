@@ -7,6 +7,7 @@ import { Footer } from '@/components/footer';
 import { AnimatedBackground } from '@/components/animated-background';
 import { CookieBanner } from '@/components/cookie-banner';
 import { siteConfig } from '@/lib/data';
+import { basePath } from '@/lib/utils';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -69,7 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/CW.png" type="image/png" />
+        <link rel="icon" href={`${basePath}/CW.png`} type="image/png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
