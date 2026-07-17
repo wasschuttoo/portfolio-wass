@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Wassil Chuttoo',
-  title: 'Wassil Chuttoo — Senior Software Developer in Test',
+  title: 'Wassil Chuttoo',
   description:
     'Senior SDET specializing in enterprise test automation, Playwright frameworks, and quality engineering. Building robust automation solutions for world-class HCM software at Dayforce.',
   url: 'https://wasschuttoo.github.io/portfolio-wassil',
