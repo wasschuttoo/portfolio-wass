@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Calendar, Heart, Target, Users, Sparkles, BookOpen, Coffee } from 'lucide-react';
 import { SectionHeader } from '@/components/ui-components';
 import { basePath } from '@/lib/utils';
+import { yearsOfExperience } from '@/lib/data';
 
 export default function AboutPage() {
   return (
@@ -159,7 +160,7 @@ export default function AboutPage() {
           <div className="grid sm:grid-cols-2 gap-4">
             {[
               { icon: MapPin, label: 'Location', value: 'Vacoas, Mauritius' },
-              { icon: Calendar, label: 'Experience', value: '4+ years in Quality Engineering' },
+              { icon: Calendar, label: 'Experience', value: `${yearsOfExperience}+ years in Quality Engineering` },
               { icon: Users, label: 'Industry', value: 'Enterprise HCM (Human Capital Management)' },
               { icon: Target, label: 'Specialization', value: 'Test Automation Architecture' },
             ].map((fact, index) => (

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search } from 'lucide-react';
+import { yearsOfExperience } from '@/lib/data';
 import { skills } from '@/lib/data';
 import { SectionHeader } from '@/components/ui-components';
 
@@ -30,7 +31,7 @@ export default function SkillsPage() {
         <SectionHeader
           badge="Technical Expertise"
           title="Skills & Competencies"
-          description="A comprehensive toolkit refined through 4+ years of enterprise automation, full-stack development, and quality leadership."
+          description={`A comprehensive toolkit refined through ${yearsOfExperience}+ years of enterprise automation, full-stack development, and quality leadership.`}
         />
 
         {/* Search & Filter */}

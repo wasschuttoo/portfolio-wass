@@ -26,13 +26,14 @@ export const navigation = [
   { name: 'Contact', href: '/contact' },
 ];
 
+export const yearsOfExperience = new Date().getFullYear() - 2021;
+
 export const stats = [
-  { label: 'Years of Experience', value: 4, suffix: '+' },
+  { label: 'Years of Experience', value: yearsOfExperience, suffix: '+' },
   { label: 'Test Coverage Growth', value: 30, suffix: '%+' },
   { label: 'Regression Effort Reduced', value: 40, suffix: '%' },
   { label: 'Promotions in 3 Years', value: 3, suffix: '' },
 ];
-
 export const experience = [
   {
     title: 'Software Developer in Test – Senior',

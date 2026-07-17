@@ -18,7 +18,7 @@ import {
   Layers,
   CheckCircle2,
 } from 'lucide-react';
-import { stats, experience, certifications, skills, projects } from '@/lib/data';
+import { stats, experience, certifications, skills, projects, yearsOfExperience } from '@/lib/data';
 import { AnimatedCounter, SectionHeader, ScrollToTop } from '@/components/ui-components';
 import { basePath } from '@/lib/utils';
 
@@ -295,7 +295,7 @@ export default function HomePage() {
           <SectionHeader
             badge="Tech Stack"
             title="Technologies I Work With"
-            description="A curated toolkit refined over 4+ years of enterprise automation and full-stack development."
+            description={`A curated toolkit refined over ${yearsOfExperience}+ years of enterprise automation and full-stack development.`}
           />
 
           <motion.div
