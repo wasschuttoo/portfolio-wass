@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wassil Chuttoo",
+  "jobTitle": "Senior Software Developer in Test",
+  "url": "https://wassilchuttoo.dev",
+  "email": "chelsea.fc.wass@hotmail.com",
+  "telephone": "+230 5488 5938",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Vacoas",
+    "addressCountry": "MU"
+  },
+  "sameAs": [
+    "https://linkedin.com/in/wassilchuttoo",
+    "https://github.com/wassilchuttoo"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Dayforce"
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "University of Mauritius"
+  },
+  "knowsAbout": [
+    "Test Automation",
+    "Playwright",
+    "Software Quality Engineering",
+    "C#",
+    "TypeScript",
+    "React",
+    "Azure DevOps",
+    "CI/CD",
+    "BDD",
+    "Agile/Scrum"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "ISTQB Certified Tester Foundation Level",
+      "credentialCategory": "certification",
+      "dateCreated": "2023-09"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Professional Scrum Master I",
+      "credentialCategory": "certification",
+      "dateCreated": "2022-12"
+    }
+  ]
+}
