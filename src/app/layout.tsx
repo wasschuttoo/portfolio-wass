@@ -83,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               email: 'chelsea.fc.wass@hotmail.com',
               telephone: '+230 5488 5938',
               address: { '@type': 'PostalAddress', addressLocality: 'Vacoas', addressCountry: 'MU' },
-              sameAs: ['https://linkedin.com/in/wassilchuttoo', 'https://github.com/wassilchuttoo'],
+              sameAs: ['https://linkedin.com/in/wassilchuttoo', 'https://github.com/wasschuttoo'],
               worksFor: { '@type': 'Organization', name: 'Dayforce' },
               alumniOf: { '@type': 'EducationalOrganization', name: 'University of Mauritius' },
               knowsAbout: ['Test Automation', 'Playwright', 'C#', 'TypeScript', 'React', 'Azure DevOps', 'CI/CD'],

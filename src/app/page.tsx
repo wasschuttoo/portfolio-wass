@@ -98,7 +98,7 @@ export default function HomePage() {
                   <Linkedin className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://github.com/wassilchuttoo"
+                  href="https://github.com/wasschuttoo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
