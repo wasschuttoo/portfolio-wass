@@ -3,7 +3,7 @@ export const siteConfig = {
   title: 'Wassil Chuttoo — Senior Software Developer in Test',
   description:
     'Senior SDET specializing in enterprise test automation, Playwright frameworks, and quality engineering. Building robust automation solutions for world-class HCM software at Dayforce.',
-  url: 'https://wassilchuttoo.dev',
+  url: 'https://wasschuttoo.github.io/portfolio-wassil',
   ogImage: '/CW.png',
   links: {
     linkedin: 'https://linkedin.com/in/wassilchuttoo',
