@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     'Senior SDET specializing in enterprise test automation, Playwright frameworks, and quality engineering. Building robust automation solutions for world-class HCM software at Dayforce.',
   url: 'https://wasschuttoo.github.io/portfolio-wassil',
-  ogImage: '/CW.png',
+  ogImage: '/portfolio-wassil/CW.png',
   links: {
     linkedin: 'https://linkedin.com/in/wassilchuttoo',
     github: 'https://github.com/wasschuttoo',

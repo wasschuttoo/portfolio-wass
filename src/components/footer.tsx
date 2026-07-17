@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Github, Linkedin, Mail, MapPin, Heart } from 'lucide-react';
 import { siteConfig, navigation } from '@/lib/data';
+import { basePath } from '@/lib/utils';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <img src="/CW.png" alt={siteConfig.name} className="h-10 w-auto object-contain" />
+              <img src={`${basePath}/CW.png`} alt={siteConfig.name} className="h-10 w-auto object-contain" />
               <span className="font-bold text-lg">{siteConfig.name}</span>
             </Link>
             <p className="text-muted-foreground max-w-md mb-6">

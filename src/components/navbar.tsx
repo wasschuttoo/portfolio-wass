@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Sun, Moon, Download } from 'lucide-react';
 import { useTheme } from './theme-provider';
 import { navigation, siteConfig } from '@/lib/data';
-import { cn } from '@/lib/utils';
+import { cn, basePath } from '@/lib/utils';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <img src="/CW.png" alt={siteConfig.name} className="h-10 w-auto object-contain group-hover:scale-110 transition-transform" />
+            <img src={`${basePath}/CW.png`} alt={siteConfig.name} className="h-10 w-auto object-contain group-hover:scale-110 transition-transform" />
             <span className="font-bold text-lg hidden sm:block">{siteConfig.name}</span>
           </Link>
 
